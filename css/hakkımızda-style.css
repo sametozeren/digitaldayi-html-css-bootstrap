@@ -1,0 +1,273 @@
+body{font-family: 'Open Sans', sans-serif;padding-top: 0px!important;}
+nav.menubar{
+  padding:5px;
+  background-color:rgb(0, 193, 193);
+  font-size:22px;
+  position: fixed;
+  top:0;left:0;
+  width: 100%;
+  transition: all .3s ease-in-out;
+  border-radius: 0px;
+  z-index: 1;
+}
+
+nav.menubar ul{
+  text-align:center;
+  letter-spacing:1px;
+}
+
+nav.menubar ul li{
+  display:inline;
+  padding:24px 10px;
+}
+
+nav.menubar ul li a{
+  text-decoration:none;
+  color:white;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+nav.menubar.scrolled{
+  padding:0 5px;
+  background-color:rgb(0, 193, 193);
+  font-size:16px;
+  display: block;
+  z-index: 1;
+}
+nav.menubar.scrolled ul li a{
+  color:white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-brand{
+  height:80px;
+}
+.navbar-brand img{
+  width:150px;height:50px;
+}
+.nav li a:hover{
+  background-color:transparent;
+}
+.navbar-nav li a{
+  padding:5px 15px;
+}
+.navbar-nav li a:hover{
+  border-radius: 10px;
+
+}
+.icon-bar{
+  background-color: #fff;
+}
+.navbar-toggle{
+  padding: 24px 10px;
+}
+.container-fluid{
+  padding: 0px;
+  margin-top: -90px;
+  z-index: -9999;
+}
+.kalın{
+  font-weight: 700;
+}
+.item h1{
+  font-size:50px;
+  text-shadow: 0px 5px 15px black;
+}
+.item p{
+  font-size:40px;
+  text-shadow: 0px 5px 15px black;
+}
+.carousel-caption{
+  position:absolute;
+  top:300px;
+}
+hr{
+  width:250px;
+  background-color: #fff;
+}
+section.container{
+  margin-top: 150px;
+}
+section.container h1{
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+section.container p{
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.row{
+  margin-bottom: 20px;
+}
+.kutu{
+    background-color:rgb(0, 193, 193,0.8);
+    padding: 58px;
+    min-height:200px;
+    display: block;
+    text-align: center;
+    margin-bottom:15px;
+}
+.kutu i{
+  color: #fff;
+  display: inline-block;
+}
+.kutu p{
+  color:#fff;
+  font-weight: 700;
+  padding-top: 5px;
+  margin-bottom: 0px!important;
+}
+.kutu:hover{
+    background-color:rgb(0, 193, 193,1);
+}
+hr.kısa{
+  width: 70px;
+  border-bottom: 2px solid black;
+}
+footer.container-fluid{
+  background-color: #222;
+  margin-top: 10px;
+  padding-top:30px;
+  padding-bottom:30px;
+  text-align: center;
+}
+footer h4{
+  color:#fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+footer p{
+  color:#fff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.form-group input{
+  margin-bottom:20px;
+}
+.img-responsive{
+  margin-bottom: 20px;
+}
+button.btn-info{
+  background-color:rgb(0, 193, 193)!important;
+}
+button.btn-info:hover{
+  background-color:#46b8da;
+}
+.altmenü{
+  text-align: left;
+}
+.altmenü li{
+  list-style-type: none;
+}
+.altmenü li a{
+  text-align: left!important;
+  text-decoration: none;
+  color:#fff;
+}
+.bosluk{
+  margin-bottom:20px;
+}
+.footer{
+   background-color: #000;
+   padding:15px 0px;
+   padding-top: 40px;
+   margin-top: 0px;
+}
+.sosyal i{
+  color:#fff;
+  margin-right:10px;
+}
+.facebook:hover{
+  color:#3b5999;
+}
+.twitter:hover{
+  color:#55acee;
+}
+.youtube:hover{
+  color:#cd201f;
+}
+.instagram:hover{
+  color:#e4405f;
+}
+.copy{
+  color:#fff;
+  text-align: right;
+}
+section{
+  margin-bottom: 30px;
+}
+/*iletisim css burdan sonra var*/
+.iletisim{
+  text-align: left;
+}
+.iletisim h3{
+  color:black;
+  font-weight: 700;
+}
+.iletisim p{
+  color: #777;
+  font-weight: 600;
+}
+section.ekip p{
+  text-align: center!important;
+  font-size: 25px;
+  font-weight: 700;
+}
+/*iletisim css bitis*/
+
+ @media (max-width: 991.98px) {
+   /*harita*/
+   .iletisim iframe{
+     height: 300px;
+     overflow: hidden;
+   }
+   /*harita bitiş*/
+   nav.menubar{
+     display: block;
+     z-index: 1;
+     background-color:rgb(0, 193, 193);
+   }
+   nav.menubar ul li a{
+     color:#fff;
+     text-decoration:none;
+   }
+   nav.menubar.scrolled{
+     background-color:rgb(0, 193, 193);
+   }
+   .container-fluid{
+     padding: 0px;
+     margin-top: 0px;
+     z-index: -9999;
+   }
+   .padd{
+     margin-top: 90px!important;
+   }
+   .footer{
+      padding-top: 20px;
+   }
+   .item h1{
+     font-size:30px;
+     text-shadow: 0px 5px 15px black;
+   }
+   .item p{
+     font-size:20px;
+   }
+   .carousel-caption{
+     position: absolute;
+     top:50px!important;
+   }
+   .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+     min-height: 300px;
+   }
+   hr{
+     width:150px;
+     background-color: #fff;
+   }
+   .kutu{
+     background-color:rgb(0, 193, 193);
+   }
+ }

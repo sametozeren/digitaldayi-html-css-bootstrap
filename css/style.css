@@ -1,0 +1,71 @@
+body{
+    background-color: #004050;
+    background-image: url("../images/1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+  list-style-type: none;
+  color:#fff;
+}
+a:hover{
+  text-decoration: none;
+  list-style-type: none;
+  color:#fff;
+}
+.kutu1{
+
+    height:280px;
+}
+.kutu2{
+
+  height:140px;
+  background-color: #303F9F;
+  margin-top:20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.kutu2:hover{opacity:0.9;}
+.kutu2 i{margin-top: 40px;}
+.kutu4{
+    height:280px;
+    background-color: #039BE5;
+    text-align: center;
+}
+.kutu4:hover{opacity:0.9;}
+.kutu4 img{
+    margin-top:80px;
+}
+.kutu5{
+    height:140px;
+    background-color: #f44336;
+    margin-top: 20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+.kutu5:hover{opacity: 0.9;}
+.kutu5 i{margin-top:40px;}
+.kutu6{
+    height:130px;
+    background-color: #FF5722;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.kutu6:hover{opacity: 0.9;}
+.kutu6 i{margin-top: 40px;}
+.kutu7{
+    height:130px;
+    background-color: #9C27B0;
+    text-align: center;
+}
+.kutu7:hover{opacity: 0.9;}
+.kutu7 i{margin-top:40px;}
+.kutu8{
+    height:140px;
+    background-color: #FFD54F;
+    margin-top: 20px;
+    text-align: center;
+}
+.kutu8:hover{opacity: 0.9;}
+.kutu8 i{margin-top: 40px;}
