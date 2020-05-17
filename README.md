@@ -1,4 +1,5 @@
-"# digitaldayi-html-css-bootstrap" 
+<h1>BASİC HTML TEMPLATE-DİGİTALDAYI</h1>
+
 
 ![screenshot_2019-02-06 digitaldayi - giris](https://user-images.githubusercontent.com/25853989/52309295-bb028c00-29b0-11e9-956c-0c6a3be50e25.png)
 ![screenshot_2019-02-06 digitaldayi - anasayfa](https://user-images.githubusercontent.com/25853989/52309294-bb028c00-29b0-11e9-8b87-74f6aa6e9cfd.jpg)
